@@ -804,6 +804,9 @@ body {
     .hero-title {
         font-size: 2rem;
     }
+    .calculator-cta {
+        display: none;
+    }
     .input-group label {
         max-width: 80%;
     }
