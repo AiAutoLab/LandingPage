@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Automation - Автоматизация бизнеса с ИИ</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">
+                <span class="logo-text">AI Automation</span>
+            </div>
+            <div class="nav-links">
+                <a href="#services">Услуги</a>
+                <a href="#benefits">Преимущества</a>
+                <a href="#chat">ИИ Демо</a>
+                <a href="#contact">Контакты</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Автоматизируйте бизнес с помощью <span class="gradient-text">ИИ агентов</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Интегрируем умные решения в ваши бизнес-процессы. Экономьте время, снижайте затраты и опережайте конкурентов.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">60+</span>
+                        <span class="stat-text">часов экономии в месяц</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">1М+₽</span>
+                        <span class="stat-text">экономии в год</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">94%</span>
+                        <span class="stat-text">клиентов снизили затраты</span>
+                    </div>
+                </div>
+                <div class="hero-cta">
+                    <button class="btn-primary" onclick="scrollToChat()">Попробовать ИИ демо</button>
+                    <button class="btn-secondary" onclick="scrollToContact()">Получить консультацию</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits">
+        <div class="container">
+            <h2 class="section-title">Почему компании выбирают ИИ автоматизацию</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">🚀</div>
+                    <h3>Конкурентное преимущество</h3>
+                    <p>Будьте на шаг впереди конкурентов с передовыми ИИ решениями</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">⏰</div>
+                    <h3>Экономия времени</h3>
+                    <p>Освободите 60+ часов в месяц для стратегических задач</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">💰</div>
+                    <h3>Снижение затрат</h3>
+                    <p>Экономьте более 1 млн рублей в год на автоматизации процессов</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🤖</div>
+                    <h3>Автоматизация рутины</h3>
+                    <p>Передайте повторяющиеся задачи ИИ агентам</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">📈</div>
+                    <h3>Рост эффективности</h3>
+                    <p>Увеличьте обработку заявок в 2.5 раза</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🎯</div>
+                    <h3>Точность процессов</h3>
+                    <p>Минимизируйте ошибки и стандартизируйте процессы</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Наши ИИ решения</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>ИИ Продавец</h3>
+                    <p>Автоматизация переговоров с клиентами, обработка возражений и увеличение конверсии</p>
+                    <ul>
+                        <li>Обработка запросов 24/7</li>
+                        <li>Квалификация лидов</li>
+                        <li>Увеличение конверсии</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <h3>ИИ Аналитик</h3>
+                    <p>Анализ данных, прогнозирование и оптимизация бизнес-процессов</p>
+                    <ul>
+                        <li>Анализ эффективности</li>
+                        <li>Прогнозирование трендов</li>
+                        <li>Оптимизация процессов</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <h3>ИИ Ассистент</h3>
+                    <p>Автоматизация внутренних процессов и поддержка сотрудников</p>
+                    <ul>
+                        <li>Обработка документов</li>
+                        <li>Планирование задач</li>
+                        <li>Поддержка команды</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ROI Calculator Section -->
+    <section class="calculator-section">
+        <div class="container">
+            <div class="calculator-intro">
+                <h2 class="section-title">Рассчитайте выгоду от автоматизации</h2>
+                <p class="calculator-subtitle">Узнайте, сколько ваша компания сможет сэкономить с помощью ИИ решений</p>
+            </div>
+            <div class="calculator-container">
+                <div class="calculator-inputs">
+                    <div class="input-group">
+                        <label for="employees">Количество сотрудников</label>
+                        <input type="range" id="employees" min="5" max="500" value="50" oninput="updateCalculator()">
+                        <span class="input-value" id="employeesValue">50</span>
+                    </div>
+                    <div class="input-group">
+                        <label for="avgSalary">Средняя зарплата (₽)</label>
+                        <input type="range" id="avgSalary" min="30000" max="200000" value="80000" step="5000" oninput="updateCalculator()">
+                        <span class="input-value" id="avgSalaryValue">80,000</span>
+                    </div>
+                    <div class="input-group">
+                        <label for="automationPercent">% процессов для автоматизации</label>
+                        <input type="range" id="automationPercent" min="10" max="80" value="30" oninput="updateCalculator()">
+                        <span class="input-value" id="automationPercentValue">30%</span>
+                    </div>
+                    <div class="input-group">
+                        <label for="timeReduction">Экономия времени на задачу</label>
+                        <input type="range" id="timeReduction" min="20" max="90" value="60" oninput="updateCalculator()">
+                        <span class="input-value" id="timeReductionValue">60%</span>
+                    </div>
+                    <div class="calculator-cta">
+                        <p>Хотите получить детальный расчет для вашего бизнеса?</p>
+                        <button class="btn-primary" onclick="scrollToContact()">Получить персональный расчет</button>
+                    </div>
+                </div>
+                <div class="calculator-results">
+                    <div class="result-card main-result">
+                        <div class="result-icon">💰</div>
+                        <div class="result-content">
+                            <h3>Экономия в месяц</h3>
+                            <div class="result-value" id="monthlySavings">240,000 ₽</div>
+                        </div>
+                    </div>
+                    <div class="result-card">
+                        <div class="result-icon">📈</div>
+                        <div class="result-content">
+                            <h4>Экономия в год</h4>
+                            <div class="result-value small" id="yearlySavings">2,880,000 ₽</div>
+                        </div>
+                    </div>
+                    <div class="result-card">
+                        <div class="result-icon">⚡</div>
+                        <div class="result-content">
+                            <h4>Высвобожденное время</h4>
+                            <div class="result-value small" id="timeSaved">360 часов/мес</div>
+                        </div>
+                    </div>
+                    <div class="result-card">
+                        <div class="result-icon">🎯</div>
+                        <div class="result-content">
+                            <h4>ROI за год</h4>
+                            <div class="result-value small" id="roiValue">580%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Chat Demo Section -->
+    <section id="chat" class="ai-chat-section">
+        <div class="container">
+            <div class="chat-intro">
+                <h2 class="section-title">Попробуйте ИИ агента прямо сейчас</h2>
+                <p class="chat-subtitle">Протестируйте возможности нашего ИИ ассистента и убедитесь в эффективности решения</p>
+            </div>
+            <div class="chat-container">
+                <div class="chat-header">
+                    <div class="chat-status">
+                        <div class="status-indicator online"></div>
+                        <span>ИИ Ассистент онлайн</span>
+                    </div>
+                </div>
+                <div class="chat-messages" id="chatMessages">
+                    <div class="message ai-message">
+                        <div class="message-content">
+                            Привет! Я ИИ ассистент. Расскажу как автоматизация поможет вашему бизнесу. О чем хотите узнать?
+                        </div>
+                        <div class="message-time">Сейчас</div>
+                    </div>
+                </div>
+                <div class="chat-input-container">
+                    <input type="text" id="chatInput" placeholder="Напишите ваш вопрос..." class="chat-input">
+                    <button onclick="sendMessage()" class="send-btn">Отправить</button>
+                </div>
+                <div class="quick-questions">
+                    <span>Быстрые вопросы:</span>
+                    <button onclick="askQuestion('Как ИИ поможет увеличить продажи?')" class="quick-btn">Увеличение продаж</button>
+                    <button onclick="askQuestion('Сколько стоит внедрение?')" class="quick-btn">Стоимость</button>
+                    <button onclick="askQuestion('Как долго длится интеграция?')" class="quick-btn">Сроки внедрения</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies -->
+    <section class="cases">
+        <div class="container">
+            <h2 class="section-title">Результаты наших клиентов</h2>
+            <div class="cases-grid">
+                <div class="case-card">
+                    <div class="case-stats">
+                        <span class="case-number">+152%</span>
+                        <span class="case-metric">рост обработки заявок</span>
+                    </div>
+                    <p>Логистическая компания автоматизировала найм водителей и обработку заявок</p>
+                </div>
+                <div class="case-card">
+                    <div class="case-stats">
+                        <span class="case-number">180К₽</span>
+                        <span class="case-metric">экономия в месяц</span>
+                    </div>
+                    <p>Снижение нагрузки на менеджеров и экономия на зарплатах</p>
+                </div>
+                <div class="case-card">
+                    <div class="case-stats">
+                        <span class="case-number">24/7</span>
+                        <span class="case-metric">работа без перерывов</span>
+                    </div>
+                    <p>ИИ агенты обрабатывают запросы круглосуточно</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Готовы автоматизировать ваш бизнес?</h2>
+                    <p>Оставьте заявку и получите персональную консультацию по внедрению ИИ решений</p>
+                    <div class="contact-benefits">
+                        <div class="contact-benefit">
+                            <span class="benefit-check">✓</span>
+                            <span>Бесплатная консультация</span>
+                        </div>
+                        <div class="contact-benefit">
+                            <span class="benefit-check">✓</span>
+                            <span>Анализ ваших процессов</span>
+                        </div>
+                        <div class="contact-benefit">
+                            <span class="benefit-check">✓</span>
+                            <span>Расчет ROI от внедрения</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" onsubmit="submitForm(event)">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder="Телефон" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="company" name="company" placeholder="Компания">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Расскажите о ваших задачах" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary full-width">Получить консультацию</button>
+                    <p class="form-privacy">Нажимая кнопку, вы соглашаетесь с обработкой персональных данных</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">AI Automation</span>
+                    <p>Автоматизация бизнеса с помощью ИИ</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#services">Услуги</a>
+                    <a href="#benefits">Преимущества</a>
+                    <a href="#chat">ИИ Демо</a>
+                    <a href="#contact">Контакты</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AI Automation. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</body>
+</html>
